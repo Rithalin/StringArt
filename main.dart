@@ -6,15 +6,16 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'String Art',
       home: Scaffold(
         appBar: AppBar(title: const Text('String Art Generator')),
         body: const Center(
-          child: Text('Welcome to String Art Generator!'),
+          child: Text('Welcome to String Art!'),
         ),
       ),
     );
