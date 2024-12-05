@@ -11,11 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'String Art Generator',
       home: Scaffold(
         appBar: AppBar(title: const Text('String Art Generator')),
         body: const Center(
-          child: Text('Hello! This is a sample Flutter app.'),
+          child: Text('Welcome to String Art Generator!'),
         ),
       ),
     );
